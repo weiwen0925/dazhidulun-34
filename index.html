@@ -2710,4 +2710,60 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH34P15:END-->
+<!--WY-BH34P16:BEGIN-->
+<style id="wy-bh34p16-css">
+.bh34p16-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh34p16-fabbox.show{display:block;}
+.bh34p16-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh34p16-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh34p16-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh34p16-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh34p16-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh34p16-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh34p16-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh34p16-modal.open{display:flex;}
+.bh34p16-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh34p16-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh34p16-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh34p16-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh34p16-close:hover{background:#dde2e6;}
+.bh34p16-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh34p16-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh34p16-tbl th,.bh34p16-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh34p16-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh34p16-tbl thead th:nth-child(1){width:32%;}.bh34p16-tbl thead th:nth-child(2){width:41%;}.bh34p16-tbl thead th:nth-child(3){width:27%;}
+.bh34p16-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh34p16-guan{background:#eef2f5;color:#37505f;}
+.bh34p16-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh34p16-tbl tbody tr:nth-child(even) td.bh34p16-guan{background:#e8eef2;}
+.bh34p16-tbl b{color:#8b2500;}
+.bh34p16-guan b{color:#2f6b5a;}
+.bh34p16-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh34p16-note b{color:#8b2500;}
+@media(max-width:900px){.bh34p16-fabbox{right:14px;}.bh34p16-tbl{font-size:11px;}.bh34p16-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh34p16-fabbox" id="bh34p16Box"><button class="bh34p16-btn" id="bh34p16Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh34p16-ic">譯</span><span class="bh34p16-ls"><span class="bh34p16-l1">本品 · 原文·白話·中觀</span><span class="bh34p16-l2">白話翻譯表</span></span></button></div><div class="bh34p16-modal" id="bh34p16Modal" role="dialog" aria-modal="true"><div class="bh34p16-card"><button class="bh34p16-close" id="bh34p16Close" type="button" aria-label="關閉">×</button><h3>卷三十四 · 第16品 白話翻譯表（釋信持無三毒義）</h3><p class="sub">《大智度論》卷三十四 · 從「無三毒之名」的兩問四答到「知三毒實相即涅槃」的中觀統攝 · 原文↔白話↔中觀概念 逐段對照（經．我成佛時世界無三毒亦無三毒名當學般若波羅蜜；論．兩問——佛何故出生其國、成就何等智慧；四重遞進答——名相分判、境界分位、願境相待、實相統攝；世間正見為五善行根本）</p><table class="bh34p16-tbl"><caption>釋信持無三毒義·原文｜白話翻譯｜中觀概念（共10段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh34p16-src">「我成阿耨多羅三藐三菩提時，世界中無有婬欲、瞋恚、愚癡，亦無三毒之名。一切眾生成就如是智慧，善施、善戒、善定、善梵行、善不嬈眾生者，當學般若波羅蜜。」</td><td>「我證得無上正等正覺的時候，願我的世界中沒有婬欲、瞋恚、愚癡，甚至連『三毒』這個名稱都不存在。一切眾生都能成就這樣的智慧，善於布施、善於持戒、善於修定、善於清淨梵行、善於不惱害眾生的人，應當修學般若波羅蜜。」</td><td class="bh34p16-guan"><b>經文標舉——事相清淨與名言清淨雙彰</b>——此願分「無三毒（事相）」與「無三毒之名（名言）」兩層，不僅斷惑而且連能詮的名相都不必施設，預示下文「知三毒實相即涅槃」的中觀深意，開啟全品「兩問四答」的辯證。</td></tr><tr><td class="bh34p16-src">問曰（一）：若世界無三毒、亦無三毒名者，佛為何等故出生其國？</td><td>問：如果那個世界本來就沒有三毒、也沒有三毒的名稱，那麼佛又何必出生在那個國土呢？</td><td class="bh34p16-guan"><b>設問一——對治與實相的張力</b>——此問直指「佛出世本為對治煩惱」的常理，若淨土本無三毒可治，佛出世的理由何在？逼出下文四重遞進的解答。</td></tr><tr><td class="bh34p16-src">問曰（二）：一切眾生得如是智慧，是何等智慧？</td><td>問：經文說一切眾生都能成就這樣的智慧，這究竟是什麼樣的智慧呢？</td><td class="bh34p16-guan"><b>設問二——智慧的定義與內涵</b>——此問把「淨土願景」中抽象的「智慧」二字，逼問成必須具體回答的修學內容，導向下文「世間正見」的解答，使願景落實為可修可學之處。</td></tr><tr><td class="bh34p16-src">答曰：貪欲、瞋恚、愚癡名為三不善根，是欲界繫法。佛若說貪欲、瞋恚、愚癡，是欲界繫不善；若說染愛、無明，是則通三界。有佛世界純諸欲人，為是眾生故，菩薩願言：「我成佛時，國無三毒及三毒之名。」</td><td>答：貪欲、瞋恚、愚癡稱為三種不善根，這是專屬欲界的煩惱。佛如果說「貪欲、瞋恚、愚癡」，指的是欲界所繫的不善法；如果說「染愛、無明」，那就是通於三界的煩惱。有的佛國土眾生純粹是欲界之人，菩薩正是為了這樣的眾生發願說：「我成佛的時候，國土中沒有三毒，也沒有三毒的名稱。」</td><td class="bh34p16-guan"><b>第一答——名相分判：粗細二重煩惱</b>——論主先將「三毒」與通三界的「染愛、無明」作名實區分：三毒是欲界繫的粗重煩惱，染愛無明是通三界的微細煩惱。淨土所無者僅是可現行造業的欲界粗毒，並非否定一切煩惱，此為解開「淨土何以無三毒」之疑的第一層鑰匙。</td></tr><tr><td class="bh34p16-src">復有清淨佛國，純阿鞞跋致、法性生身菩薩，無諸煩惱，唯有餘習，是故言「無三毒之名」。</td><td>又有清淨的佛國土，裡面純粹是已證不退轉位、法性生身的菩薩，這些菩薩沒有種種煩惱，只剩下殘餘的習氣，因此經文才說「無三毒之名」。</td><td class="bh34p16-guan"><b>第二答——境界分位：煩惱盡與餘習存</b>——此答補充第一答的另一種淨土型態：阿鞞跋致菩薩已斷煩惱正使，僅存習氣（如佛之外皆有的殘餘氣分），故說「無三毒之名」，說明淨土清淨有不同階位的意涵，非一概而論。</td></tr><tr><td class="bh34p16-src">若有人言：如菩薩願言「我當度一切眾生」，而眾生實不盡度；此亦如是，欲令世界無三毒之名，亦應實有三毒不盡。若無三毒，何用佛為？如地無大闇，則不須日照。如經所說：「若無三法則佛不出世，若三法不斷則不得離老、病、死。」「三法」者則是三毒，如《三法經》，此中應廣說。</td><td>如果有人說：就像菩薩發願「我要度盡一切眾生」，但實際上眾生並沒有被度盡；同樣的道理，想要使世界沒有三毒之名，實際上也應該仍有三毒沒有斷盡。如果真的沒有三毒，那還用得著佛做什麼呢？就好比大地如果沒有黑暗，也就不需要太陽的照耀了。正如經中所說：「如果沒有三法，佛就不會出現於世；如果三法不斷除，就不能脫離老、病、死。」這裡的「三法」指的就是三毒，詳細內容應如《三法經》中所廣說的那樣。</td><td class="bh34p16-guan"><b>第三答——願境相待：佛與眾生的緣起循環</b>——論主以菩薩「願度一切而眾生不盡度」作類比，指出「淨土無三毒」之願與「實有三毒」之境並不矛盾，二者是相待而立的緣起關係；並引《三法經》經證，說明佛之出世與三毒之斷除本是相依相待、彼此成立的因緣鏈，非有一絕對孤立的「無」。</td></tr><tr><td class="bh34p16-src">復次，有世界，眾生分別諸法是善、是不善，是縛、是解等，於一相寂滅法中而生戲論；菩薩以是故願言：「令我世界中眾生不生三毒，知三毒實相即是涅槃。」</td><td>再者，有的世界裡，眾生會分別諸法是善的、是不善的，是繫縛的、是解脫的等等，在本來一味寂滅的法性之中，卻生起種種戲論分別；菩薩因此發願說：「願我世界中的眾生不生起三毒，並且能了知三毒的實相當下就是涅槃。」</td><td class="bh34p16-guan"><b>第四答——實相統攝：三毒當體即涅槃</b>——此答是四答中最深的一層：把「無三毒」從斷除現行、轉入不生戲論分別的層次，最終指向「知三毒實相即是涅槃」——三毒本無自性，其實相與涅槃無二無別，不必滅毒以求淨，這正是中觀「煩惱即菩提」的究竟義，也回應第一問「佛何故出世」的終極解答：佛為顯此實相而出世。</td></tr><tr><td class="bh34p16-src">答曰：智慧是世間正見。世間正見中，說有布施、有罪福、有今世後世、有阿羅漢。信罪福故，能善布施。信有阿羅漢故，能善持戒、善禪定、善梵行。得正見力故，能善不嬈眾生。</td><td>答：這裡所說的智慧，是指世間的正見。世間正見之中，承認有布施、有罪與福報、有今生與來世、有阿羅漢的存在。因為相信有罪福果報，所以能夠善於布施；因為相信有阿羅漢的存在，所以能夠善於持戒、善於修定、善於清淨梵行；因為獲得了正見的力量，所以能夠善於不惱害眾生。</td><td class="bh34p16-guan"><b>第二問之答——世間正見為五善行根本</b>——論主回應「是何等智慧」之問，指出此智慧即是「世間正見」——信有因果罪福、今世後世、阿羅漢果，此正見是布施、持戒、禪定、梵行、不惱眾生等五善行的共同根基，將抽象的「智慧」具體落實為可修學的正見內容。</td></tr><tr><td class="bh34p16-src">世間正見是無漏智慧根本，以是故說「國中無三毒之名」。貪欲有二種：一者、邪貪欲，二者、貪欲。瞋恚有二種：一者、邪瞋恚，二者、瞋恚。愚癡有二種：一者、邪見愚癡，二者、愚癡。是三種邪毒眾生難可化度，餘三易度。</td><td>世間正見是無漏智慧的根本，因此經中才說「國土中沒有三毒的名稱」。貪欲有兩種：一種是邪貪欲，一種是（一般的）貪欲。瞋恚也有兩種：一種是邪瞋恚，一種是（一般的）瞋恚。愚癡同樣有兩種：一種是邪見愚癡，一種是（一般的）愚癡。這三種「邪」毒的眾生很難教化度脫，其餘三種（一般的貪瞋癡）則容易度化。</td><td class="bh34p16-guan"><b>再細分——邪毒與正毒的化度難易</b>——論主進一步將貪瞋癡各分「邪」與「正（一般）」二類，邪毒（如撥無因果的邪見）難以化度，一般煩惱則容易對治；此分判呼應世間正見的重要性——唯有具足正見才能遠離邪毒，故正見是淨土無三毒之名的根本保障。</td></tr><tr><td class="bh34p16-src">「無三毒名」者，無邪三毒之名。「善布施」等五事，如上〈放光品〉中說。</td><td>所謂「無三毒之名」，指的是沒有「邪」三毒的名稱。至於「善布施」等五種善行的詳細內容，如同前面〈放光品〉中所說的一樣。</td><td class="bh34p16-guan"><b>總結收攝——回向前品，五善行為淨土具體展現</b>——論主在品末點明「無三毒之名」精確所指是無邪三毒，並將「善布施」等五善行回向至〈放光品〉的既有論述，使本品「淨土無三毒」與「成就智慧」兩問的解答，最終收束於可修可證的具體行持，呼應全論「當學般若波羅蜜」的一貫旨歸。</td></tr></tbody></table><p class="bh34p16-note">本表為卷三十四第16品「釋信持無三毒義」原典部分的原文·白話·中觀三欄對照：由經文「我成阿耨多羅三藐三菩提時，世界中無有婬欲、瞋恚、愚癡，亦無三毒之名……當學般若波羅蜜」起，論主提出兩問——「佛何故出生其國」與「是何等智慧」，並以四重遞進之答解開第一問：從欲界粗毒與通三界染愛無明的名相分判，到阿鞞跋致淨土「煩惱盡、餘習存」的境界分位，再到菩薩願度眾生而眾生不盡度的願境相待，終至「知三毒實相即是涅槃」的實相統攝；復以「世間正見」解答第二問，並細分邪毒與正毒之化度難易，終歸於〈放光品〉所說五善行。原文取自 dazhidulun-34 站內 L1 加密原典第十六品（依實際位移順序收錄，經在最頂、問在答前、有問必有答）。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh34p16-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh34p16Btn"),BOX=document.getElementById("bh34p16Box"),MODAL=document.getElementById("bh34p16Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=15;
+var CBOX=document.getElementById("c34p16Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh34p16Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH34P16:END-->
 </body></html>
